@@ -1,11 +1,21 @@
 h1 {
-    color: red;
-}
+    color: rgb(110, 235, 8);
+    
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
 
-li {
-    color: green;
+    border: 8px solid red;
 }
 
 h4 {
-    color: purple;
+
+    background: #ff6450
+}
+
+body {
+    background: pink;
+    /* background: url(https://cdn.wallpaperdirect.com/shared-assets/images/products/132354_163x163_thumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
