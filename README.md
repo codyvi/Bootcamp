@@ -1,7 +1,7 @@
 # Bootcamp
 Bootcamp of Fullstack I'm taking
 
-#Sections
+# Sections
 The sections I have right now are:
 * Pure HTML
 * CSS Beginner 
