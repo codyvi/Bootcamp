@@ -1,13 +1,14 @@
 # Bootcamp
 Bootcamp of Fullstack I'm taking
 
-# Sections
+#  Complete Sections
 The sections I have right now are:
 * Pure HTML
 * CSS Beginner 
 * Css Intermediate
 * Bootstrap
+* Bootstrap 4
 
 # Sections that aren't complete
-* Bootstrap 4
+* JavaScript
 
