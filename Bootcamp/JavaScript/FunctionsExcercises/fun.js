@@ -23,6 +23,12 @@ function factorial(num)
 
     return result;
 }
+
+function kebabToSnake(word)
+{
+    var newStr = word.replace(/-/g, "_");
+    return newStr;
+}
   
 
 console.log(isEven(4));
@@ -30,6 +36,9 @@ console.log(isEven(21));
 console.log(isEven(68));
 console.log(isEven(333));
 
-console.log("Factorial of five")
+console.log("Factorial of five");
 
-console.log(factorial(5))
+console.log(factorial(5));
+
+console.log(kebabToSnake("hello-world"));
+console.log(kebabToSnake("blah"));
