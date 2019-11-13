@@ -6,7 +6,7 @@ window.setTimeout(function() {
       
     var input = prompt("What would you like to do?");
     
-    while(input != "quit ")
+    while(input !== "quit")
     {
 
       if(input === "list")
@@ -19,7 +19,10 @@ window.setTimeout(function() {
         var newTodo = prompt("Enter new todo");
         todos.push(newTodo);
       }
+      input = prompt("What would you like to do?");
     }
+
+    console.log("See ya bro")
 
   }, 500);
 
