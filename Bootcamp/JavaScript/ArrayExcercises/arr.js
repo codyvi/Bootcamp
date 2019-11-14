@@ -1,17 +1,14 @@
 /*
     Complexity of printReverse: 
-    .reverse() O(N)
-    .forEach() O(N)
-    2N
+    for O(N)
+    N
     Big-O = O(N)
 */
 
 function printReverse(array){
-    reversed = array.reverse();
-    reversed.forEach(function(numbers) {
-        console.log(numbers);
-        
-    });
+    for(var i = array.length - 1; i >= 0; i--){
+        console.log(array[i]);
+    }
 }
 
 /*
