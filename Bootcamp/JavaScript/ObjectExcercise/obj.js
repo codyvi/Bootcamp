@@ -14,12 +14,18 @@ var Movies = [
     }
 ]
 
-var tam = Movies.length
+var tam = Movies.length;
 
-for(var i = 0; i < tam; i++)
-{
-    if(Movies[i].hasWatched === true)
-    {
-        console.log("You have watched " + Movies[i].title, "- " +Movies[i].rating, "stars")
+for(var i = 0; i < tam; i++){
+    var result = "You have ";
+    if(Movies[i].hasWatched){
+        result += "watched ";
     }
+    else{
+        result += "not watched ";
+    }
+
+    result += "\"" + Movies[i].title + "\" - ";
+    result += Movies[i].rating + " stars";
+    console.log(result);
 }
