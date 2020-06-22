@@ -8,7 +8,13 @@ The sections I have right now are:
 * Css Intermediate
 * Bootstrap
 * Bootstrap 4
+* Bootstrap 4: Flexbox and Layout
+* Introduction to JavaScript
+* Javascript Basics: Control Flow
+* Javascript Basics: Functions
+* Javascript Basics: Arrays
+* Javascript Basics: Objects
 
 # Sections that aren't complete
-* JavaScript
+* DOM Manipulation
 
